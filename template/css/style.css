@@ -1,0 +1,126 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/* html{
+  font-size: 62.5%;
+} */
+/* header  nav{
+  background: #66768a;
+} */
+header nav > *{
+  
+float: left;
+ list-style: none;
+width: 33%;
+text-align: center;
+}
+header nav ul li{
+  float: left;
+  width: 25%;
+}
+main{
+   background: #66768a;
+   padding: 40px;
+}
+
+main section {
+   
+  margin: auto;
+  width: 80%;
+  text-align: center;
+
+}
+.secondSection{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.third{
+  height: 35rem;
+  background: #dbdfe2;
+}
+.thirdSection{
+  
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 90px 0;
+   
+}
+.thirdSection div{
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  background: grey;
+}
+.t1{
+  width: 40%;
+  float: left;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 10px;;
+  
+
+}
+.t2{
+  width: 40%;
+  float:left ;
+  text-align: center;
+  
+}
+.forthSection{
+ 
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* footer */
+footer{
+  color: white;
+  background: #161f2a;
+}
+ .left{
+  float: left;
+  margin: 10px 15px 20px 15px;
+
+}
+
+.right{
+  float: right;
+  margin: 10px 15px 20px 15px;
+}
+hr{
+  /* height: 1px;
+  background: #000;
+  display: block;
+  margin-top: 5px; */
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
